@@ -28,28 +28,44 @@ The main functions and variables are in the main file and assets used are in the
 
 ### Prerequisites
 
-1. Corona SDK/solar 2d- download and install
+1. Corona SDK/Solar2D - download and install
 2. Corona simulator
 
-### Setup steps
+### Setup Steps
 
-1. Clone repository
-   a. ` Git clone https://github.com/YuvrajPatel23/Ball_catching_game`
-   b. ` Cd Ball_catching_game`
-2. Verify assets
-   a. Main.lua
-   b. Background.jpg
-   c. Bucket.png
-3. Create Configuration files
-4. Launch Game
-   a. Open Corona Simulator
-   b. Select "Open Project" and choose the main.lua
-   c. The game will launch automatically
+1. **Clone repository**
+
+   ```bash
+   git clone https://github.com/YuvrajPatel23/Ball_catching_game
+   cd Ball_catching_game
+   ```
+
+2. **Verify assets**
+
+   - Main.lua
+   - Background.jpg
+   - Bucket.png
+
+3. **Create Configuration files**
+
+4. **Launch Game**
+   - Open Corona Simulator
+   - Select "Open Project" and choose the main.lua
+   - The game will launch automatically
 
 ## Output Screenshots
 
+### Main Game Screen
+
 ![Main Game Screen](Output/Picture1.png)
+_Screenshot showing the main gameplay with falling balls, bucket, score display, and UI elements_
+
+### Game Over Screen
 
 ![Game Over Screen](Output/Picture2.png)
+_Screenshot showing the game over state with final score and restart option_
+
+### Bonus Points
 
 ![Bonus Points](Output/Picture3.png)
+_Screenshot showing the bonus points animation when speed increases_
