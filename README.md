@@ -57,15 +57,15 @@ The main functions and variables are in the main file and assets used are in the
 
 ### Main Game Screen
 
-![Main Game Screen](Output/Picture1.png)
+![Main Game Screen](/Output/Picture1.png)
 _Screenshot showing the main gameplay with falling balls, bucket, score display, and UI elements_
 
 ### Game Over Screen
 
-![Game Over Screen](Output/Picture2.png)
+![Game Over Screen](/Output/Picture2.png)
 _Screenshot showing the game over state with final score and restart option_
 
 ### Bonus Points
 
-![Bonus Points](Output/Picture3.png)
+![Bonus Points](/Output/Picture3.png)
 _Screenshot showing the bonus points animation when speed increases_
