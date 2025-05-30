@@ -48,8 +48,8 @@ The main functions and variables are in the main file and assets used are in the
 
 ## Output Screenshots
 
-![Main Game Screen](Picture1.png)
+![Main Game Screen](/Output/Picture1.png)
 
-![Game Over Screen](Picture2).png)
+![Game Over Screen](/Output/Picture2.png)
 
-![Bonus Points](Picture3.png)
+![Bonus Points](/Output/Picture3.png)
