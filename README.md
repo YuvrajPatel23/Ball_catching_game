@@ -34,8 +34,8 @@ The main functions and variables are in the main file and assets used are in the
 ### Setup steps
 
 1. Clone repository
-   a. Git clone https://github.com/YuvrajPatel23/Ball_catching_game
-   b. Cd Ball_catching_game
+   a. ` Git clone https://github.com/YuvrajPatel23/Ball_catching_game`
+   b. ` Cd Ball_catching_game`
 2. Verify assets
    a. Main.lua
    b. Background.jpg
@@ -48,8 +48,8 @@ The main functions and variables are in the main file and assets used are in the
 
 ## Output Screenshots
 
-![Main Game Screen](/Output/Picture1.png)
+![Main Game Screen](Output/Picture1.png)
 
-![Game Over Screen](/Output/Picture2.png)
+![Game Over Screen](Output/Picture2.png)
 
-![Bonus Points](/Output/Picture3.png)
+![Bonus Points](Output/Picture3.png)
