@@ -1,25 +1,55 @@
-# Star Explorer
+# Bucket Collect Ball Game
 
-This is an example game built with [Corona](http://www.coronalabs.com) to go along with the [Getting Started](https://docs.coronalabs.com/guide/programming/index.html) tutorial. The included source code goes along with the respective chapter.
+**Name:** Yuvraj Chiragbhai Patel  
+**Student ID:** 1224030
 
-## Chapters
+## Overview
 
-* [Introduction to Corona](https://docs.coronalabs.com/guide/programming/intro/index.html)
-* [Chapter 1 — Creating an App](https://docs.coronalabs.com/guide/programming/01/index.html)
-* [Chapter 2 — Upward & Onward](https://docs.coronalabs.com/guide/programming/02/index.html)
-* [Chapter 3 — Bringing it to Life](https://docs.coronalabs.com/guide/programming/03/index.html)
-* [Chapter 4 — Creating Scenes](https://docs.coronalabs.com/guide/programming/04/index.html)
-* [Chapter 5 — Converting the Game to Composer](https://docs.coronalabs.com/guide/programming/05/index.html)
-* [Chapter 6 — Implementing High Scores](https://docs.coronalabs.com/guide/programming/06/index.html)
-* [Chapter 7 — Sounds and Music](https://docs.coronalabs.com/guide/programming/07/index.html)
-* [Chapter 8 — Deployment](https://docs.coronalabs.com/guide/programming/08/index.html)
+This project is a game of catching ball using bucket using Lua and Corona SDK/Solar 2D framework. The game features a scoring system, lives mechanism, progressive difficulty, and persistent high scoring tracking. This game offers 3 lives for the ball to be missed after that the game stops and offers to restart.
 
-## Credits
+## Project Structure
 
-[Corona Labs](http://www.coronalabs.com) would like to extend its gratitude to:
+The main functions and variables are in the main file and assets used are in their original form and are in the same directory.
 
-* Dr. Brian Burton ([burtonsmediagroup.com](http://www.burtonsmediagroup.com)) for his guidance, direction, and core tutorial content in creating this series. He has also created several [books](http://www.burtonsmediagroup.com/) about programming in Corona SDK.
+## Features
 
-* Eric Matyas ([soundimage.org](http://www.soundimage.org)) for the game's music and sound effects. Eric offers numerous audio tracks and sound effects on his website, available on a donation basis.
+- Physics-based gameplay with realistic ball dropping mechanics
+- Touch controls to move bucket horizontally
+- Scoring system with bonus speed increases every 10 points
+- Lives system (3 lives) – lose a life when a is missed.
+- Persistent high score saved to local storage using JSON
+- Pause/Resume functionality with on-screen pause button
+- Progressive difficulty – ball spawn rate increases as score increases by multiple of 10 points
+- Visual feedback with bonus text animations and score shadows
 
-* ([Kenney](http://kenney.nl/)) for some of the game artwork. Kenney game studio supports other developers by creating free game assets and high quality learning material.
+## Installation Instructions
+
+**Github Link:** https://github.com/YuvrajPatel23/Ball_catching_game
+
+### Prerequisites
+
+1. Corona SDK/solar 2d- download and install
+2. Corona simulator
+
+### Setup steps
+
+1. Clone repository
+   a. Git clone https://github.com/YuvrajPatel23/Ball_catching_game
+   b. Cd Ball_catching_game
+2. Verify assets
+   a. Main.lua
+   b. Background.jpg
+   c. Bucket.png
+3. Create Configuration files
+4. Launch Game
+   a. Open Corona Simulator
+   b. Select "Open Project" and choose the main.lua
+   c. The game will launch automatically
+
+## Output Screenshots
+
+![Main Game Screen](Picture1.png)
+
+![Game Over Screen](Picture2).png)
+
+![Bonus Points](Picture3.png)
